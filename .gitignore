@@ -1,3 +1,10 @@
+# large raw data files
+application_data.csv
+columns_description.csv
+previous_application.csv
+application_data_cleaned.csv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

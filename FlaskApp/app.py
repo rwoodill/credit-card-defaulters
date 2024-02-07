@@ -19,11 +19,13 @@ def about_route():
 # ---------------------------------------------------------
 # jupyter notebook
 # ---------------------------------------------------------
-@app.route('/jupyter_notebook_analysis', methods=['GET'])
-def get_notebook():
-    return render_template("data_analysis.html")
+@app.route('/jupyter_notebook_data_cleaning', methods=['GET'])
+def get_data_cleaning_notebook():
+    return render_template("Data_cleanning_app_data.html")
 
-
+@app.route('/jupyter_notebook_ml_model', methods=['GET'])
+def get_ml_notebook():
+    return render_template("machine_learning.html")
 
 
 if __name__ == "__main__":

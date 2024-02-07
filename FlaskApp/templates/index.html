@@ -30,8 +30,6 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
     ></script>
-    <!-- leaflet-choropleth JavaScript -->
-    <script type="text/javascript" src="static/js/choropleth.js"></script>
     <!-- leaflet marker cluster-->
     <link
       rel="stylesheet"
@@ -73,31 +71,28 @@
 
       <select id="selDataset" onchange="optionChanged(this.value)">
         <option value="" disabled selected>Select an option</option>
-        <option value="option1">1</option>
-        <option value="option2">2</option>
-        <option value="option3">Jupyter Notebook</option>
+        <option value="option1">Data Cleaning Notebook</option>
+        <option value="option2">Machine Learning Notebook</option>
       </select>
       <hr />
-      <div class="map-container">
-        <div class="mx-auto" id="map" style="display: none"></div>
+      <div class="text-center" id="data-cleaning-container" style="display: none">
+        <h5>Data Cleaning Notebook</h5>
+        <iframe src="/jupyter_notebook_data_cleaning" title="Data Cleaning Notebook" width="1000" height="1200"></iframe>
+        <div id="data-cleaning" style="display: none"></div>
       </div>
-      <div class="text-center" id="chart-container" style="display: none;" >
-        <h5>Air Quality Chart</h5>
-        <div id="chart-content">
-          <canvas id="myChart1"></canvas>
-          <canvas id="myChart2"></canvas>
-          <canvas id="myChart3"></canvas>
-        </div>
-      </div>
-      <div class="text-center" id="example-container" style="display: none">
-        <h5>Jupyter Notebook</h5>
-        <iframe src="/jupyter_notebook_analysis" title="Jupyter Notebook" width="1000" height="1200"></iframe>
-        <div id="example-content" style="display: none"></div>
+      <div class="text-center" id="ml-container" style="display: none">
+        <h5>Machine Learning Notebook</h5>
+        <iframe src="/jupyter_notebook_ml_model" title="Machine Learning Notebook" width="1000" height="1200"></iframe>
+        <div id="machine-learning" style="display: none"></div>
       </div>
     </div>
 
 
     <!-- leaflet marker cluster -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/leaflet.markercluster.js"></script>
+  
+    <!-- custom js -->
+    <script src="static/js/logic.js"></script>
+  
   </body>
 </html>

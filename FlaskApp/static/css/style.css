@@ -1,0 +1,96 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#map {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 500px;  
+  width: 75%;  
+  padding-top: 100px;
+  margin-top: 10px;
+}
+
+#map-container {
+  padding-top: 120px;
+  padding-left: 10px;
+  padding-bottom: 120px;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.jumbotron {
+  margin-top: 100px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0;
+  border-radius: 0;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+
+/* CSS from the leaflet-choropleth documentation */
+.legend {
+  color: #555;
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+.legend li {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+}
+.legend .min {
+  float: left;
+  padding-bottom: 5px;
+}
+.legend .max {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* CSS for columns on api doc page*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+/* CSS for canvas on dashboard*/

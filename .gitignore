@@ -4,6 +4,7 @@ columns_description.csv
 previous_application.csv
 application_data_cleaned.csv
 pre_application_data_cleaned.csv
+application_data_cleaned_ros.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -21,12 +21,15 @@ def about_route():
 # ---------------------------------------------------------
 @app.route('/jupyter_notebook_data_cleaning', methods=['GET'])
 def get_data_cleaning_notebook():
-    return render_template("Data_cleanning_app_data.html")
+    return render_template("Data_cleanning_app_data_for_ROS.html")
 
 @app.route('/jupyter_notebook_ml_model', methods=['GET'])
 def get_ml_notebook():
-    return render_template("machine_learning.html")
+    return render_template("decision_tree_ROS_model.html")
 
+@app.route('/jupyter_notebook_visualizations', methods=['GET'])
+def get_visualizations_notebook():
+    return render_template("visualizations_notebook.html")
 
 if __name__ == "__main__":
     app.run(debug=False)

@@ -5,16 +5,16 @@ function optionChanged(selectedOption) {
     if (selectedOption === "option1") {
       d3.select("#data-cleaning-container").style("display", "block");
       d3.select("ml-container").style("display", "none");
-      d3.select("#visualizations-container"),style("display", "none");
+      d3.select("#visualizations-container").style("display", "none");
       
     } else if (selectedOption === "option2") {
       d3.select("#data-cleaning-container").style("display", "none");
       d3.select("#ml-container").style("display", "block");
-      d3.select("#visualizations-container"),style("display", "none");
+      d3.select("#visualizations-container").style("display", "none");
     } 
-    else if (selectedOption === "option2") {
+    else if (selectedOption === "option3") {
         d3.select("#data-cleaning-container").style("display", "none");
         d3.select("#ml-container").style("display", "none");
-        d3.select("#visualizations-container"),style("display", "block");
+        d3.select("#visualizations-container").style("display", "block");
     } 
   }

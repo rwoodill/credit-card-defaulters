@@ -5,6 +5,26 @@ What features are most important in determining whether a customer is "high risk
 Maha Salman Cheema, Rachel Woodill, Zhao Wen
 
 ## Project Description
+In this project, we aim to develop a machine learning model that can predict whether an individual is likely to be a credit card defaulter.
+
+## File Locations
+FlaskApp: FlaskApp > app.py
+
+Raw Data: not uploaded due to file size, can be found at https://www.kaggle.com/datasets/mishra5001/credit-card
+
+Data Cleaning Notebook: Documents > Data_cleanning_app_data_for_ROS.ipynb
+
+Machine Learning Notebook: Documents > decision_tree_ROS_model.ipynb
+
+Visualizations Notebook: Documents > visualizations_notebook.ipynb
+
+Saved Figures (for visualization): Documents > figures > (all files)
+
+Previous Attempts: Documents > Previous_Attempts > (all files) 
+
+Description of Features (for Dataset): Documents > Misc > columns_description.csv
+
+
 
 ## Dataset
 Credit Card Defaulters (https://www.kaggle.com/datasets/mishra5001/credit-card)

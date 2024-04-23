@@ -1,4 +1,4 @@
-# project-four
+# credit-card-defaulters
 What features are most important in determining whether a customer is "high risk" (credit defaulter)?
 
 ## Team Members:
@@ -29,33 +29,12 @@ Description of Features (for Dataset): Documents > Misc > columns_description.cs
 ## Dataset
 Credit Card Defaulters (https://www.kaggle.com/datasets/mishra5001/credit-card)
 
-# Requirements
-Data Model Implementation (25 points)
+## Images
+The following displays the feature importance for our analysis:
+![feature_importance_top20_figure](https://github.com/rwoodill/credit-card-defaulters/assets/40248698/827add57-21e2-4238-8fad-4dd2652868b2)
 
-A Python script initializes, trains, and evaluates a model (10 points)
+The following displays our complex decision tree:
+![decistion_tree](https://github.com/rwoodill/credit-card-defaulters/assets/40248698/94d95a92-97ff-46be-b7ed-277d5667fec3)
 
-The data is cleaned, normalized, and standardized prior to modeling (5 points)
-
-The model utilizes data retrieved from SQL or Spark (5 points)
-
-The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared. (5 points)
-
-Data Model Optimization (25 points)
-
-The model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance is documented in either a CSV/Excel table or in the Python script itself (15 points)
-
-Overall model performance is printed or displayed at the end of the script (10 points)
-GitHub Documentation (25 points)
-
-GitHub repository is free of unnecessary files and folders and has an appropriate .gitignore in use (10 points)
-The README is customized as a polished presentation of the content of the project (15 points)
-Group Presentation (25 points)
-
-All group members speak during the presentation. (5 points)
-
-Content, transitions, and conclusions flow smoothly within any time restrictions. (5 points)
-
-The content is relevant to the project. (10 points)
-
-The presentation maintains audience interest. (5 points)
-
+The following displays the dashboard for the analysis:
+![dashboard_](https://github.com/rwoodill/credit-card-defaulters/assets/40248698/687cf482-9072-4516-9fa4-0aef12cc8701)
